@@ -1,0 +1,48 @@
+{
+	"credit": "Made with Blockbench",
+    "render_type": "cutout",
+	"textures": {
+		"0": "totemofrevival:block/grave",
+		"1": "totemofrevival:block/grave_2",
+		"particle": "totemofrevival:block/grave"
+	},
+	"elements": [
+		{
+			"from": [7, 0, 7],
+			"to": [9, 15, 9],
+			"faces": {
+				"north": {"uv": [0, 0, 2, 15], "texture": "#0"},
+				"east": {"uv": [2, 0, 4, 15], "texture": "#0"},
+				"south": {"uv": [4, 0, 6, 15], "texture": "#0"},
+				"west": {"uv": [6, 0, 8, 15], "texture": "#0"},
+				"up": {"uv": [10, 2, 8, 0], "texture": "#0"},
+				"down": {"uv": [10, 2, 8, 4], "texture": "#0"}
+			}
+		},
+		{
+			"from": [7, 11, -1.5],
+			"to": [9, 13, 8.5],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [0, 0, 0]},
+			"faces": {
+				"north": {"uv": [4, 4, 6, 6], "texture": "#1"},
+				"east": {"uv": [0, 0, 10, 2], "texture": "#1"},
+				"south": {"uv": [4, 6, 6, 8], "texture": "#1"},
+				"west": {"uv": [0, 2, 10, 4], "texture": "#1"},
+				"up": {"uv": [2, 14, 0, 4], "texture": "#1"},
+				"down": {"uv": [4, 4, 2, 14], "texture": "#1"}
+			}
+		},
+		{
+			"from": [6.5, 7.75, 6.5],
+			"to": [9.5, 12, 9.5],
+			"faces": {
+				"north": {"uv": [8, 4, 11, 8], "texture": "#0"},
+				"east": {"uv": [8, 8, 11, 12], "texture": "#0"},
+				"south": {"uv": [10, 0, 13, 4], "texture": "#0"},
+				"west": {"uv": [11, 4, 14, 8], "texture": "#0"},
+				"up": {"uv": [14, 11, 11, 8], "texture": "#0"},
+				"down": {"uv": [14, 11, 11, 14], "texture": "#0"}
+			}
+		}
+	]
+}

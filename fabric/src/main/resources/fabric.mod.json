@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "totemofrevival",
+  "version": "${version}",
+  "name": "Totem Of Revival",
+  "description": "Bring your buddies back in hardcore! Probably!",
+  "authors": [
+  "SSBlur"
+  ],
+  "contact": {
+  "homepage": "https://github.com/ssblur/totemofrevival",
+  "sources": "https://github.com/ssblur/totemofrevival"
+  },
+  "license": "WTFPL",
+  "icon": "assets/totemofrevival/icon.png",
+  "environment": "*",
+  "entrypoints": {
+  "main": [
+    "com.ssblur.totemofrevival.fabric.TotemOfRevivalFabric"
+  ]
+  },
+  "depends": {
+  "fabric": "*",
+  "minecraft": ">=1.20.1",
+  "architectury": ">=9.1.12"
+  }
+}
